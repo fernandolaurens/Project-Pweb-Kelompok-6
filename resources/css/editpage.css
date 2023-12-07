@@ -1,0 +1,64 @@
+
+
+.container-edit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6.1rem;
+
+}
+
+
+.content-form{
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+input{
+    border : none;
+    border-bottom: 2px solid #b6b6b6;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #6487e6;
+
+}
+
+input:focus + label{
+    color: #6487e6;
+
+}
+
+
+.input-contact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.contact-no{
+    padding-bottom: 30px;
+}
+
+.updt-btn{
+    background-color: #6487e6;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.updt-btn:hover{
+    background-color: #e6e6e6;
+    color: #141414;
+}
